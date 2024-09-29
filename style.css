@@ -50,3 +50,36 @@ input{
     margin-left: 20px;
 }
 
+
+#your-age{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+    
+}
+
+.years, .months, .day{
+    background-color: black;
+    color: #fff;
+    margin: 22px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px;
+    width: 80px;
+    height: 80px;
+}
+
+.num{
+    font-size: 2rem;
+    line-height: 1px;
+    color: #fff;
+}
+p{
+    font-size: large;
+    line-height: 1px;
+    color: #ffffff4b;
+}
