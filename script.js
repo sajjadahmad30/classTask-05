@@ -49,4 +49,12 @@ btn.onclick=function calcBirthDate(){
    function getDaysInMonth(year, month){
       return new Date(year,month, 0).getDate();
    }
+
+   if(currentDate.value.trim()===""){
+      alert("Please Enter your birth Date.")
+      day.textContent="-";
+      month.textContent="-";
+      year.textContent="-";
+   
+   }
 }
