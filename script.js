@@ -11,8 +11,8 @@ btn.onclick=function calcBirthDate(){
    let m1= birthDate.getMonth()+1;
    let d1= birthDate.getDate();
 
-  let today= new Date()
-  let y2= today.getFullYear();
+   let today= new Date()
+   let y2= today.getFullYear();
    let m2= today.getMonth()+1;
    let d2= today.getDate();
 
@@ -35,14 +35,15 @@ btn.onclick=function calcBirthDate(){
       m3--;
       d3 = getDaysInMonth(y1, m1) + d2 - d1;
    }
-   
-    if(m3 < 0){
+   if(m3 < 0){
       m3 = 11;
       y3--;
-    }
-    year.textContent=y3
-    month.textContent=m3
-    day.textContent=d3
+   }
+
+   //  show years,months and days
+   day.textContent=d3;
+   month.textContent=m3;
+   year.textContent=y3;
 
    // create function this return the last day of month
    function getDaysInMonth(year, month){
