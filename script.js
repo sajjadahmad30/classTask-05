@@ -1,6 +1,5 @@
 let currentDate=document.getElementById('currentDate')
 let btn =document.getElementById('btn')
-
 btn.onclick=function calcBirthDate(){
    let year= document.getElementById('year')
    let month= document.getElementById('month')

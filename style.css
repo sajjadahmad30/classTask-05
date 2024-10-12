@@ -1,14 +1,13 @@
- 
+
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.862);
+    background-color: rgb(11, 33, 171);
 }
 .container{
-    background-color: rgba(0, 98, 255, 0.72);
     color: #fff;
     padding:50px 30px;
     width: 50%;
@@ -40,11 +39,18 @@ input{
     cursor: pointer;
     margin: 8px;
    width: 45%;
+   cursor: pointer;
 }
 #btn{
-
    width: 30%;
    text-align: center;
+   transition: background-color 0.3s ease;
+   outline: none;
+   border: none;
+}
+#btn:hover{
+    color:white;
+   background-color: blue;
 }
 
 #your-age{
